@@ -1,0 +1,12 @@
+{
+  "name": "taiwan-weather-xxx",
+  "version": "1.0.0",
+  "main": "TaiwanWeather.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "2.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}

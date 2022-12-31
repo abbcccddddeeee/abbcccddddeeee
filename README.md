@@ -1,16 +1,26 @@
-### Hi there 👋
+# taiwan-weather-xxx
 
-<!--
-**abbcccddddeeee/abbcccddddeeee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Installation
 
-Here are some ideas to get you started:
+'''bash
+npm install --save taiwan-weather-xxx
+'''
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Requirements
+
+首先申請中央氣象局 open data 的帳號並得授權碼
+
+## Sample Code
+
+'''js
+cont TaiwanWeather = require('taiwan-weather-xxx');
+(async () => {
+let data = await TaiwanWeather(授權碼, '澎湖縣');
+
+console.log(data);
+})();
+'''
+
+# Licence
+
+The MIT licence
